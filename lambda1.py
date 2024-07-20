@@ -4,8 +4,6 @@ from tuya_connector import TuyaOpenAPI, TuyaOpenPulsar, TuyaCloudPulsarTopic
 
 ACCESS_ID = os.environ['ACCESS_ID']
 ACCESS_KEY = os.environ['ACCESS_KEY']
-USERNAME = os.environ['USERNAME']
-PASSWORD = os.environ['PASSWORD']
 DEVICE_ID = os.environ['DEVICE_ID']
 ENDPOINT = os.environ['ENDPOINT']
 MQ_ENDPOINT = os.environ['MQ_ENDPOINT']
